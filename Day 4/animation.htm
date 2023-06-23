@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            background-color: #cc1616;
+            animation-name: meet ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes meet{
+            0%{
+                background-color:red;
+                top:0;
+                left: 0;
+                
+            }
+            25%{
+                background-color:rgb(44, 99, 138);
+                left: 500px;
+                top: 0;
+                rotate:90deg;
+            }
+            50%{
+                background-color:rgb(64, 138, 44);
+                top: 500px;
+                left: 500px;
+                rotate:180deg;
+            }
+            75%{
+                background-color:rgb(102, 44, 138);
+                left: 0;
+                top: 500px;
+                rotate:270deg;
+            }
+            100%{
+                background-color:rgb(44, 127, 138);
+                top: 0;
+                rotate: 360deg;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

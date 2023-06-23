@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .company ul li{
+            display: none;
+        }
+        .company:hover ul li{
+            display:block;
+        }
+        .company:hover .C-info li{
+            display: none;
+        }
+        .company ul li:hover .C-info li{
+            display:block;
+        }
+        .company ul li:hover .SI-info li{
+            display:none;
+        }
+        .company ul li:hover .C-info li:hover .SI-info li{
+            display: block;
+        }
+       
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li class="company">Google
+                <ul>
+                    <li>Gmail
+                        <ul class="C-info">
+                            <li>sign in
+                                <ul class="SI-info">
+                                    <li>Sign in as an Admin</li>
+                                    <li>Sign in as an User</li>
+                                </ul>
+                            </li>
+                            <li>sign out</li>
+                        </ul>
+                    </li>
+                    <li>You Tube</li>
+                    <li>GDrive</li>
+                    <li>GMap</li>
+                </ul>
+            </li>
+            <li class="company">Facebook
+                <ul>
+                    <li>instagram</li>
+                    <li>Whatsapp</li>
+                </ul>
+            </li>
+            <li class="company">Microsoft
+                <ul>
+                    <li>Bing</li>
+                    <li>Linked in</li>
+                </ul>
+            </li>
+            <li class="company">Amazon
+                <ul>
+                    <li>AWS</li>
+                    <li>Mini-TV</li>
+                    <li>E-commerce</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

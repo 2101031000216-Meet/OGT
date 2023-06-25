@@ -1,0 +1,89 @@
+.mt {
+  margin-top: 10px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  font-weight: 900;
+}
+.main_head {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+.container {
+  background-image: url(images/india2.jpg);
+  height: 1190px;
+  padding: 15px;
+}
+
+.logo {
+  height: 80px;
+ 
+  width: 15%;
+}
+
+.navbar {
+  height: 60px;
+  padding: 10px;
+  width: 85%;
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+.navbar li {
+  display: inline-block;
+   
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size:2rem;
+  font-weight: bold;
+ 
+}
+
+
+
+.header {
+  font-size: 2rem;
+  height: 100px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.text {
+  padding:15px;
+  height: 350px;
+  font-size: 1.5rem;
+  
+}
+.section {
+  height: 470px;
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  background-color: rgb(224, 188, 141);
+  width: 30%;
+  border: 2px solid black;
+}
+.footer {
+  height: 70px;
+  font-size: 1.2rem;
+}

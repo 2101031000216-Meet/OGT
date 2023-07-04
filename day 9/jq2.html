@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Second JQUERY</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#TxtTestFocus").focus(function () {
+                $(this).css("background-color", "yellow");
+            });
+            $("#TxtTestBlur").blur(function () {
+                $(this).css("background-color", "green");
+            });
+            $("#TxtTestKeyPress").keypress(function () {
+                alert($(this).val());
+            });
+            $("#TxtTestKeyUp").keyup(function () {
+                alert($(this).val());
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <input type="text" id="TxtTestFocus" placeholder="Check  Focus Event..." />
+    <hr />
+    <input type="text" id="TxtTestBlur" placeholder="Check Blur Event..." />
+    <hr />
+    <input type="text" id="TxtTestKeyPress" placeholder="Check  Key Press Event..." />
+    <hr />
+    <input type="text" id="TxtTestKeyUp" placeholder="Check  Key Up Event..." />
+    <hr />
+</body>
+
+</html>
